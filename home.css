@@ -1,0 +1,55 @@
+.container {
+  text-align: center; /* 부모 요소에서 텍스트를 중앙 정렬 */
+}
+
+.SolSun {
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 90px;
+  color: skyblue;
+  text-align: center;
+  text-decoration: none; /* 밑줄 제거 */
+  display: inline-block; /* 링크 요소를 블록 레벨 요소로 변경하여 가운데 정렬을 적용 */
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  font-family: "Gowun Batang", serif; /* 원하는 글꼴로 변경 */
+  font-size: 18px; /* 원하는 글꼴 크기로 변경 */
+  font-weight: 400; /* 원하는 글꼴 두께로 변경 */
+  color: white; /* 원하는 글자 색상으로 변경 */
+}
+
+/* Google Fonts에서 불러온 글꼴을 적용 */
+body {
+  font-family: "Gowun Batang", serif;
+}
+
+/* 카드 제목에 대해 Roboto 폰트 적용 */
+.card-title {
+  font-family: "Gowun Batang", serif;
+  font-weight: 700;
+}
+
+/* 카드 본문 텍스트에 대해 Noto Sans KR 폰트 적용 */
+.card-text {
+  font-family: "Gowun Batang", serif;
+  font-weight: 400;
+}
+
+.best {
+  font-family: "Gowun Batang", serif;
+  text-align: center;
+  font-style: normal;
+}
+
+.card {
+  width: 90%;
+  margin: auto; /* 가운데 정렬을 위한 설정 */
+}
+
+.card-img-top {
+  height: 320px; /* 원하는 높이를 설정합니다. */
+  object-fit: cover; /* 이미지를 카드의 영역에 맞게 조정합니다. */
+}
